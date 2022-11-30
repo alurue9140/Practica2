@@ -1,4 +1,5 @@
-﻿$fileUsersCsv=Read-Host "Introduce el fichero csv de los usuarios:"
+#Eliminar lista de usuarios del login
+$fileUsersCsv=Read-Host "Introduce el fichero csv de los usuarios:"
 $file_Users = Get-Content $fileUsersCsv
 foreach($linea in $file_Users)
 {
