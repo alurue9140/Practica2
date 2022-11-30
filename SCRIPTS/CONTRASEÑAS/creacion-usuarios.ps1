@@ -1,4 +1,5 @@
-﻿function creartodo
+# Menu para crear y borrar todos los usuarios y grupos
+function creartodo
 {
 
     $file_groups=Import-Csv -Path C:\Users\irueda\Desktop\SCRIPTS\CONTRASEÑAS\grupos.csv 
